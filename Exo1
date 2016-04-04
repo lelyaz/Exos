@@ -1,0 +1,7 @@
+def match_ends(words):
+    if len(words)>=2 and words[0:1]==words[-1:]:
+       result=len(words)
+    else:
+        result=''
+    return result
+print(match_ends('trrrrt'))
